@@ -1,0 +1,4 @@
+tmdb_id,title,overview,genres,imdb_rating,vote_count,cast
+1,Movie 1,Description 1,Action,7.5,200,"['Actor 1', 'Actor 2']"
+2,Movie 2,Description 2,Comedy,8.0,150,"['Actor 3', 'Actor 4']"
+3,Movie 3,Description 3,Drama,6.5,300,"['Actor 5', 'Actor 6']"
