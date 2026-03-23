@@ -5,7 +5,9 @@ from typing import List, Optional
 import recommender
 
 app = FastAPI(title="Movie Recommendation API", version="1.0.0")
-
+@app.get("/")
+def home():
+    return {"message": "Backend is working 🚀"}
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
